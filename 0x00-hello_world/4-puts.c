@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(void)
 {
-/* simple description */
+/**
+ * description for this function
+ * this function will print the msg
+ */
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
