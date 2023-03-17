@@ -6,11 +6,12 @@
  **/
 int main(void)
 {
-	for (x = 'a'; x <= 'z'; x++)
-	{
-		int x = tolower(x);
+	int x = 'a';
 
+	while (x <= 'z')
+	{
+		x = tolower(x);
 		putchar(x);
+		x++;
 	}
-	return (0);
 }
