@@ -7,6 +7,7 @@
 int main(void)
 {
 	int x = 'a';
+	int z = 'A'
 
 	while (x <= 'z')
 	{
@@ -14,14 +15,12 @@ int main(void)
 		putchar(x);
 		x++;
 	}
-	 int w = 'A';
-
-	 while (w <= 'Z')
-	 {
+	while (w <= 'Z')
+	{
 		w = tolower(w);
 		putchar(w);
 		w++;
-	 }
-	 putchar('\n');
-	 return (0);
+	}
+	putchar('\n');
+	return (0);
 }
