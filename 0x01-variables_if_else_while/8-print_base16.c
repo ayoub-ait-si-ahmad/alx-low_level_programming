@@ -12,11 +12,11 @@ int main(void)
 	{
 		putchar(x);
 		x++;
-		while (y <= 'f')
-		{
-			putchar(y);
-			y++;
-		}
+	}
+	while (y <= 'f')
+	{
+		putchar(y);
+		y++;
 	}
 	putchar('\n');
 	return (0);
