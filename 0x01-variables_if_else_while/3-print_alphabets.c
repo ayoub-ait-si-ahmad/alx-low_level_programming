@@ -16,7 +16,7 @@ int main(void)
 	}
 	 int w = 'A';
 
-		 while (w <= 'Z')
+	 while (w <= 'Z')
 	 {
 		w = tolower(w);
 		putchar(w);
