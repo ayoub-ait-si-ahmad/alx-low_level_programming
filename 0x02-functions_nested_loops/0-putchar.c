@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Prints all possible combinations of two two-digit numbers,
  *        ranging from 0-99, separated by a comma followed by a space.
@@ -7,6 +7,12 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	int i;
+	char strings[9] = "_putchar\n";
+
+	for (i = 0 ; i <= 9; i++)
+	{
+		putchar(strings[i]);
+	}
 	return (0);
 }
