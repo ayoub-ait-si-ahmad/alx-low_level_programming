@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * This function takes an integer argument and prints its last digit to the console.
- * If the integer is negative, it first converts it to a positive value and then prints its last digit.
- * The function returns zero.
+/**
+ * print_last_digit - Prints the last digit of a number.
+ * @x: The number in question.
+ *
+ * Return: Value of the last digit.
  */
-int print_last_digit(int)
+int print_last_digit(int x)
 {
 	int x;
 
@@ -13,13 +14,11 @@ int print_last_digit(int)
 	{
 		x = (x * -1);
 		x = (x % 10);
-		putchar(x + '0');
-		putchar('\n');
 	} else
 	{
 		x = (x % 10);
-		putchar(x + '0');
-		putchar('\n');
 	}
+	putchar(x + '0');
+	putchar('\n');
 	return (0);
 }
