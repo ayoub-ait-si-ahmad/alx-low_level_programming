@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Prints all possible combinations of two two-digit numbers,
- *        ranging from 0-99, separated by a comma followed by a space.
+ * print_alphabet - prints the lowercase alphabet
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+int print_alphabet(void)
 {
 	int i;
 
@@ -15,5 +14,6 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
+	}
 	return (0);
 }
